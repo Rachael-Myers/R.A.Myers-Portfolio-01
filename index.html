@@ -40,7 +40,7 @@
       <!-- navbar  -->
       <nav
         class="navbar navbar-dark navbar-expand-lg fixed-top"
-        style="background-color: #580000; opacity: 0.7"
+        style="background-color: rgb(88, 0, 0); opacity: 0.7"
       >
         <div class="container-fluid d-flex justify-content-center">
           <a
@@ -56,7 +56,7 @@
               height="44"
               class="d-inline-block align-text-top"
             />
-            Rachael
+            Welcome...
           </a>
           <button
             class="navbar-toggler ms-auto border border-light"
@@ -127,11 +127,11 @@
 
     <!--<div class="container-fluid">-->
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-color: #fcf0c8;">
       <div class="row">
-        <div class="col-6 left text-center bg-success text-white">
-          <h2 class="lead text-uppercase p-2 mt-1">A Brief Biography...</h2>
-          <h6 class="text-justify">
+        <div class="col-4 card left text-center  text-white" class="shadow mb-4" style="background-color: rgb(88, 0, 0)">
+          <h2 class="lead text-uppercase p-2 mt-1" style="font-family: 'Caveat', cursive">A Brief Biography...</h2>
+          <h5 class="text-justify">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
             saepe ad vel nisi. Itaque error quia distinctio, dignissimos atque
             molestias! Quisquam reprehenderit rem quas velit consequatur
@@ -158,14 +158,45 @@
             praesentium a laborum. Ea voluptates doloremque officia totam. Harum
             ea a doloremque fugit amet nemo error asperiores atque commodi
             nobis, voluptatum
-          </h6>
+          </h5>
         </div>
-        <div class="col-6 right text-center bg-info text-white lead">
+        <div class="col-4 card left text-center text-white">
+            <h2 class="lead text-uppercase p-2 m-0" style="background-color: purple; margin-bottom: 0px; font-family: 'Caveat', cursive">A Brief Biography...</h2>
+            <h5 class="text-justify" style="background-color: purple; padding-top: 4px; margin-top: 0px; padding-bottom: 10px; margin-bottom: 0px;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+              saepe ad vel nisi. Itaque error quia distinctio, dignissimos atque
+              molestias! Quisquam reprehenderit rem quas velit consequatur
+              obcaecati id dicta iusto et, repellat voluptates tenetur tempora,
+              debitis sit illo hic atque impedit dolor, aspernatur quae saepe
+              adipisci accusantium voluptatum! Repellat aliquid sunt velit vitae?
+              Quisquam error minima nemo, veniam quasi, necessitatibus dolorem
+              reiciendis qui dolor vitae in ipsum quam saepe voluptatum aut
+              debitis molestias eveniet asperiores. Neque vero provident ipsa ex
+              placeat magnam maiores reprehenderit, quidem doloremque consequatur
+              voluptates consectetur, quasi repellendus omnis similique sit
+              accusantium magni blanditiis facere odit tempore eius, dolorem modi?
+              Qui quis quisquam doloribus magnam cupiditate? Rerum iusto voluptate
+              dolor sequi? Aliquid dolorem, dolor temporibus, est itaque
+              voluptatibus placeat tempore, saepe magnam exercitationem vel.
+              Voluptas neque a repellat, quo modi obcaecati. Libero repellendus
+              aliquam sapiente exercitationem quod fugiat, nisi optio voluptates
+              impedit aperiam officiis. Blanditiis placeat aut repellat commodi
+              laudantium totam tempora earum ratione dolorum pariatur, optio vitae
+              ducimus corrupti obcaecati sit quasi fugit quam amet qui deleniti
+              quod repellendus itaque nemo! Rem unde eveniet doloribus consequatur
+              quae deleniti id dignissimos iste obcaecati iusto eos, officiis
+              quibusdam doloremque. Obcaecati sunt nesciunt non voluptatem, totam
+              praesentium a laborum. Ea voluptates doloremque officia totam. Harum
+              ea a doloremque fugit amet nemo error asperiores atque commodi
+              nobis, voluptatum
+            </h5>
+          </div>
+        <div class="col-4 card right text-center bg-info text-dark lead">
           <h2 class="lead text-uppercase p-2 mt-1">
             Looking toward the horizon...
           </h2>
-          <h6 class="text-justify">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
+          <h5 class="text-justify">
+            <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
             cum aliquid iure sit, mollitia fuga corporis dignissimos voluptas
             totam delectus voluptate consequatur in nostrum beatae eos vitae
             quos id non quis unde, velit nam? Itaque maiores alias dolores animi
@@ -188,12 +219,12 @@
             maiores sint, voluptate inventore numquam aliquam temporibus
             adipisci ipsa! Harum adipisci pariatur excepturi, unde reprehenderit
             sit incidunt. Quis, ut.
-          </h6>
+          </b></h5>
         </div>
       </div>
     </div>
 
-    <div class="col-12 d-flex m-4">
+   <!--commenting out the map as unnecessary for the portfolio--> <!--<div class="col-12 d-flex m-4">
       <div class="container-fluid">
         <div class="map-responsive d-flex justify-content-center">
           <iframe
@@ -207,7 +238,40 @@
           ></iframe>
         </div>
       </div>
-    </div>
+    </div>-->
+    
+<!--start of contact form-->
+<div id="contactformbottom" style="background-color: #fcf0c8;">
+<div class="container mt-5">
+    <h1 style="color: maroon;">Reach Out.</h1>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstname" placeholder="JoAnne" required>
+        </div>
+        <div class="col-md-6">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Doe" required>
+        </div>
+        <div class="col-md-8">
+            <label for="email/info" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email/info" placeholder="JoAnne.Doe@email.com" required>
+        </div>
+        <div class="col-md-4">
+            <label for="phonenumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phonenumber" placeholder="+1 (555)867-5309">
+        </div>
+        <div class="col-md-12">
+            <label for="comments">Comments, Concerns, and Queries?</label>
+            <textarea class="form-control" id="comments" rows="5"></textarea>
+        </div>
+    </form>
+</div></div>
+<div class="container-fluid  p-5" style="background-color:#fcf0c8 ;"></div>
+
+
+
+<!--end contact form-->
     <footer class="footer; m-4 p-4">
         <h2 class="text-center" style="color: brown; font-size: larger;">&#169 R.A. Myers 2022</h2>
     </footer>
