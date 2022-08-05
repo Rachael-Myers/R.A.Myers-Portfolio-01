@@ -2,6 +2,7 @@
 
 <html lang="en">
   <head>
+    <!--required metatags-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,8 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,9 +36,13 @@
       integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
   </head>
 
-  <body>
+  <body class="bg-dark" >
+    <section class="d-flex justify-content-center align-items-center flex-column bg-dark">
     <header class="shadow mb-4" style="background-color: #fcf0c8; padding: 4px; border: 6px double rgb(221, 172, 49);">
       <!-- navbar  -->
       <nav
@@ -137,12 +141,13 @@
       </div>
     </header>
 </div>
+</section>
     <!--End Simulation of the deprecated .jumbotron class-->
 
   
 
     <!--<div class="container-fluid">-->
-
+<!--Begin Biography Paragraph-->
     <div class="container-fluid py-3" style="background-color: #fcf0c8; border: 6px double rgb(221, 172, 49);">
       <div class="row">
         <div class="col-md-12 card left text-center  text-white" class="shadow mb-4 py-5" style="background-color: rgb(88, 0, 0)"; style="border: 6px double rgb(151, 128, 69);>
@@ -153,6 +158,8 @@
             Early exposure to coding in languages like BASIC and Pascal dovetailed to lead her to the intersection of art and coding, artistic web-development.<br>
           </h3>
         </div>
+        <!--End Bio-->
+        <!--Begin button links to previous projects-->
         <div class="col-md-12 py-3 my-3 card left text-center text-white" style="border: 6px double rgb(151, 128, 69); margin: 0px; background-color: #411530;">
             <h2 class="lead text-uppercase p-3 m-0" style="background-color: #411530; margin-bottom: 0px; font-family: 'Caveat', cursive">Previous Projetcs</h2>
             <h5 class="text-justify" style="background-color: #411530; padding-top: 4px; margin-top: 0px; padding-bottom: 10px; margin-bottom: 0px; ">
@@ -178,13 +185,86 @@
             <p>a student project</p></a>
             </h5>
           </div>
-        <div class="col-md-12 py-5 card right text-center bg-info text-dark lead" style="border: 6px double rgb(151, 128, 69);">
+        <div class="col-md-12 py-5 card right text-center  text-dark lead" style="border: 6px double rgb(151, 128, 69); background-color: rgb(71, 63, 122);">
           <h2 class="lead text-uppercase p-2 mt-1">
-            My Art.....
+            <!--My Art.....-->
           </h2>
-<!--Possible carousel location-->
-      
-<!-- Carousel wrapper -->
+<!--Begin of carousel-->
+
+<section class="d-flex justify-content-center align-items-center flex-column">
+  <h1 class="text-light">Examples of Digital Watercolors</h1>
+  <div class="container mycontainer mt-5">
+    <div id="myFirstCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#myFirstCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./media/01Afternoon-over-the-Pacific-digital-watercolor-by-RAMyers.png" alt="watercolor of a stormy ocean in the afternoon" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h3>Afternoon over the Pacific</h3>
+            <p>Digital watercolor of the late afternoon sun shining through storm clouds over the ocean while gulls glide on the thermals.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./media/02Afternoon-Poplar-digital-watercolor-by-RAMyers.png" alt="Digital watercolor of afternoon sunlight shining through the leaves of a poplar tree." class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h3>Afternoon Poplar</h3>
+            <p>Digital watercolor of afternoon sunlight shining through the leaves of a poplar tree.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./media/03Celestial-Waterfall-a-digital-water-color-by-RAMyers.jpg" alt="Ditital watercolor of a waterfall made of stars and light, splashing at night by R.A.Myers." class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h3>Celestial Waterfall</h3>
+            <p>Ditital watercolor of a waterfall made of stars and light, splashing at night by R.A.Myers.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./media/04Crecent-Moonrise-digital-watercolor-by-RAMyers.png" alt="Evening as a crecent moon rises over a lavender landscape lighting a distant oasis. By R.A. Myers." class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h3>Crecent Moonrise</h3>
+            <p>Evening as a crecent moon rises over a lavender landscape lighting a distant oasis. By R.A. Myers.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./media/05Porco-Rosso-digital-water-color-by-RAMyers.JPG" alt="Digital watercolor mockup of a poster for the studio Ghibli film Porco Rosso, depicting a seaplane of the 1920's or 1930's gliding through a pastel clouded sky. By R.A.Myers." class="d-block w-100 h-100">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h3>Porco Rosso</h3>
+            <p>Digital watercolor mockup of a poster for the studio Ghibli film Porco Rosso, depicting a seaplane of the 1920's or 1930's gliding through a pastel clouded sky. By R.A.Myers..</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myFirstCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myFirstCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  </section>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  
+  
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+
+
+      <!-- End carousel -->
         </div>
       </div>
     </div>
