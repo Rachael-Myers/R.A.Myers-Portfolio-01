@@ -401,6 +401,15 @@
 <div  style="border: 8px double maroon; width: 100%; ";>
     <h1 style="color: maroon;">Reach Out.</h1>
     <form class="row g-3" action="https://formsubmit.co/b7468dad80309fd175edc6e7995b057f" method="POST">
+      <!--Begin Honeypot-->
+      <input type="text" name="_honey" style="display: none;">
+      <!--End Honeypot-->
+      <!--Disable Captcha-->
+      <input type="hidden" name="_captcha" value="false">
+
+<!--Begin link to successful submission page-->      
+<input type="hidden" name="_next" value="https://rachael-myers.github.io/R.A.Myers-Portfolio-01/success.html">
+
         <div class="col-md-6">
             <label for="firstname" class="form-label">First Name</label>
             <input type="text" class="form-control" name="name" id="firstname" placeholder="JoAnne" required>
