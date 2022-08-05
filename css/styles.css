@@ -1,6 +1,12 @@
 
 .body {
-	background-image: url("media\wesley-tingey-KrQkCVZO1BI-unsplash-parchment.jpg");
+  background-image: url("media\Parchment-01.jpg");
+  height: 400px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
 }
 
 .map-responsive {

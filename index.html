@@ -55,14 +55,15 @@
             href="index.html"
             style="text-shadow: 2px 2px black"
           >
+          <a href="#top">
             <img
               class="text-center"
               src="media/Logo-Sepia-Honu.JPG"
-              alt=""
-              width="40"
-              height="44"
-              class="d-inline-block align-text-top"
-            />
+              alt="sepia and rainbow colored turtle by R.A.Myers"
+
+              width="44"
+              height="48"
+              class="d-inline-block align-text-top"></a>
             Welcome...
           </a>
           <button
@@ -100,7 +101,7 @@
               class="nav-link active text-light mx-2 px-2 border border-light rounded-2"
               style="text-shadow: 2px 2px black"
               href="https://www.polywork.com/rachael_a_myers" target="_blank"
-              ><img src="media/polywork-logo-wf.jpg" alt="polywork wireframe logo" width="13%"><i class="fa-brands fa-polywork"></i> Polywork</a
+              ><img src="media/polywork-logo-wf.jpg" alt="polywork wireframe logo" width="16rem"><i class="fa-brands fa-polywork"></i> Polywork</a
             >
             </div>
           </div>
@@ -108,7 +109,10 @@
       </nav>
       <!--Begin Simulation of the deprecated .jumbotron class-->
 
-      <div class="container py-5" >
+      <div class="container mt-5 py-5" id="top" style="background-image: url('media/Parchment-01.jpg'); background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9; z-index: -50;">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-4 col-md-12 col-sm-11">
             <img
@@ -160,7 +164,22 @@
           </h3>
         </div>
         <!--End Bio-->
-        <!--Begin button links to previous projects-->
+        <!--Begin button links to previous projects and accordion-->
+        <!--begin accordion-->
+        <!--
+          <div class="container mt-3">
+  <h2>Simple Collapsible</h2>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+  <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+        -->
+        <!--end accordion-->
         <div class="col-md-12 py-3 my-3 card left text-center text-white" style="border: 6px double rgb(151, 128, 69); margin: 0px; background-color: #411530;">
             <h2 class="lead text-uppercase p-3 m-0" style="background-color: #411530; margin-bottom: 0px; font-family: 'Caveat', cursive">Previous Projetcs</h2>
             <h5 class="text-justify" style="background-color: #411530; padding-top: 4px; margin-top: 0px; padding-bottom: 10px; margin-bottom: 0px; ">
@@ -412,7 +431,7 @@
 
 <!--end contact form-->
     <footer class="footer; m-4 p-4">
-        <h2 class="text-center" style="color: brown; font-size: larger;">&#169 R.A. Myers 2022</h2>
+        <h2 class="text-center" style="color: brown; font-size: 2rem;">&#169 R.A. Myers 2022</h2>
     </footer>
   
     <script
